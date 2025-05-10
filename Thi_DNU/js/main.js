@@ -74,6 +74,10 @@ function ShowProduct(){
     })
 }
 
+ShowProduct();
 
 
-
+var btndn = document.getElementById("form-btn");
+btndn.onclick = function Validate(){
+    DangNhap();
+}
